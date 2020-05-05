@@ -1,0 +1,121 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  border: transparent 2px black;
+}
+
+/* BODY */
+
+body {
+  background: url(../img/gmail_background.jpg) no-repeat center center/cover;
+}
+
+.container {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+
+/* HEADER */
+
+#header_gmail {
+  color: white;
+  font-size: 30px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+#search {
+  margin: 10px 0px;
+}
+
+#btn {
+  width: 50px;
+  cursor: pointer;
+}
+
+#unread_alert {
+  color: white;
+  margin: 10px 0px;
+  font-size: 30px;
+}
+
+#unread_number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  height: auto;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px 7px;
+  background-color: orange;
+  color: red;
+}
+
+#unread {
+  color: red;
+}
+
+/* MAIN */
+
+main {
+  margin: 10px 0;
+}
+
+/* READED MAIL */
+
+.readed_mail {
+  border: 1px solid black;
+  padding: 5px;
+  background: white;
+}
+
+/* UNREDED MAIL */
+
+.unread_mail {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+/* MAIN GENERAL */
+
+.star:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.text_2 {
+  color: grey;
+}
+
+.input_checkbox {
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer {
+  margin: 10px 0;
+  text-align: center;
+}
+
+#footer_gmail {
+  font-size: 20px;
+}
